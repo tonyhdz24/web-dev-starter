@@ -1,4 +1,4 @@
-window.onload = loaded;
+// window.onload = loaded;
 
 /**
  * Simple Function that will be run when the browser is finished loading.
@@ -10,9 +10,12 @@ function loaded() {
 }
 
 /**
- * This function returns the string 'hello'
- * @return {string} the string hello
+ * This function causes a pop up window to appear
+ * @return nothing
  */
 export function sayHello() {
-  return "hello";
+  window.alert("Hello");
 }
+
+const mainBtn = document.getElementById("main-btn");
+mainBtn.addEventListener("click", sayHello);
