@@ -4,7 +4,7 @@
 The purpose of this lab to was create a single simple webpage using HTML, CSS and JavaScript to display some information about myself.
 
 ## Sources and Credits
-No external sources used for this lab
+Shane Panter: https://github.com/shanep/web-dev-starter
 
 ## How to run code
 * To run the code simply fork from my repo at https://github.com/tonyhdz24/web-dev-starter
